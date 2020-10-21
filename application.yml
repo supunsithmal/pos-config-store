@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/pos?createDatabaseIfNotExist=true
     username: root
     password: Kaputa32
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       naming:
